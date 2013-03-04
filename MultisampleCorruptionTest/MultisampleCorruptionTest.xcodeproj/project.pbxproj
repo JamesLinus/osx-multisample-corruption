@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E12D494163212E900D6DE39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E12D493163212E900D6DE39 /* main.cpp */; };
+		7E12D496163212E900D6DE39 /* MultisampleCorruptionTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E12D495163212E900D6DE39 /* MultisampleCorruptionTest.1 */; };
+		7E12D49E1632134000D6DE39 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E12D49C1632134000D6DE39 /* GLUT.framework */; };
+		7E12D49F1632134000D6DE39 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E12D49D1632134000D6DE39 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E12D48D163212E900D6DE39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				7E12D496163212E900D6DE39 /* MultisampleCorruptionTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E12D48F163212E900D6DE39 /* MultisampleCorruptionTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultisampleCorruptionTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E12D493163212E900D6DE39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E12D495163212E900D6DE39 /* MultisampleCorruptionTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MultisampleCorruptionTest.1; sourceTree = "<group>"; };
+		7E12D49C1632134000D6DE39 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		7E12D49D1632134000D6DE39 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E12D48C163212E900D6DE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E12D49E1632134000D6DE39 /* GLUT.framework in Frameworks */,
+				7E12D49F1632134000D6DE39 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E12D484163212E900D6DE39 = {
+			isa = PBXGroup;
+			children = (
+				7E12D49C1632134000D6DE39 /* GLUT.framework */,
+				7E12D49D1632134000D6DE39 /* OpenGL.framework */,
+				7E12D492163212E900D6DE39 /* MultisampleCorruptionTest */,
+				7E12D490163212E900D6DE39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E12D490163212E900D6DE39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E12D48F163212E900D6DE39 /* MultisampleCorruptionTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E12D492163212E900D6DE39 /* MultisampleCorruptionTest */ = {
+			isa = PBXGroup;
+			children = (
+				7E12D493163212E900D6DE39 /* main.cpp */,
+				7E12D495163212E900D6DE39 /* MultisampleCorruptionTest.1 */,
+			);
+			path = MultisampleCorruptionTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E12D48E163212E900D6DE39 /* MultisampleCorruptionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E12D499163212E900D6DE39 /* Build configuration list for PBXNativeTarget "MultisampleCorruptionTest" */;
+			buildPhases = (
+				7E12D48B163212E900D6DE39 /* Sources */,
+				7E12D48C163212E900D6DE39 /* Frameworks */,
+				7E12D48D163212E900D6DE39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultisampleCorruptionTest;
+			productName = MultisampleCorruptionTest;
+			productReference = 7E12D48F163212E900D6DE39 /* MultisampleCorruptionTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E12D486163212E900D6DE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Brandon Jones";
+			};
+			buildConfigurationList = 7E12D489163212E900D6DE39 /* Build configuration list for PBXProject "MultisampleCorruptionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E12D484163212E900D6DE39;
+			productRefGroup = 7E12D490163212E900D6DE39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E12D48E163212E900D6DE39 /* MultisampleCorruptionTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E12D48B163212E900D6DE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E12D494163212E900D6DE39 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E12D497163212E900D6DE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E12D498163212E900D6DE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E12D49A163212E900D6DE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E12D49B163212E900D6DE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E12D489163212E900D6DE39 /* Build configuration list for PBXProject "MultisampleCorruptionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E12D497163212E900D6DE39 /* Debug */,
+				7E12D498163212E900D6DE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E12D499163212E900D6DE39 /* Build configuration list for PBXNativeTarget "MultisampleCorruptionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E12D49A163212E900D6DE39 /* Debug */,
+				7E12D49B163212E900D6DE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E12D486163212E900D6DE39 /* Project object */;
+}
